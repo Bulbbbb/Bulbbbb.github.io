@@ -12,12 +12,12 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-
+<link rel="stylesheet" href="https://fonts.loli.net/css?family=Palatino:300,300italic,400,400italic,700,700italic|Times New Roman:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"bulbbbb.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
+    var CONFIG = {"hostname":"bulbbbb.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
   <meta name="description" content="sunyj的个人博客">
@@ -211,7 +211,16 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-12-21 11:51:49 / 修改时间：11:52:03" itemprop="dateCreated datePublished" datetime="2021-12-21T11:51:49+08:00">2021-12-21</time>
+              <time title="创建时间：2021-12-21 11:51:49 / 修改时间：19:25:14" itemprop="dateCreated datePublished" datetime="2021-12-21T11:51:49+08:00">2021-12-21</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/blog/" itemprop="url" rel="index"><span itemprop="name">blog</span></a>
+                </span>
             </span>
 
           
@@ -225,8 +234,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="新建文件"><a href="#新建文件" class="headerlink" title="新建文件"></a>新建文件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new name</span><br></pre></td></tr></table></figure>
-
+          <p>hexo 是一个静态站点生成器，配合 gitPages，可以搭建属于你自己的 blog，本文对 hexo 常用操作进行总结</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/12/21/hexo%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -270,7 +286,16 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-12-21 11:49:37 / 修改时间：16:05:10" itemprop="dateCreated datePublished" datetime="2021-12-21T11:49:37+08:00">2021-12-21</time>
+              <time title="创建时间：2021-12-21 11:49:37 / 修改时间：20:28:54" itemprop="dateCreated datePublished" datetime="2021-12-21T11:49:37+08:00">2021-12-21</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">机器学习</span></a>
+                </span>
             </span>
 
           
@@ -284,34 +309,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="TP、TN、FP、FN"><a href="#TP、TN、FP、FN" class="headerlink" title="TP、TN、FP、FN"></a>TP、TN、FP、FN</h2><p><code>P（Positive）\ N（Negative）：</code>模型预测的结果<br><code>T（True）\F（False）：</code>模型预测的结果是正确还是错误<br><code>TP:</code>真正例，预测为正样本，预测正确（实际为正样本，模型判断也为正样本）<br><code>TN:</code>真负例，预测为负样本，预测正确（实际为负样本，模型判断也为负样本）<br><code>FP:</code>假正例，预测为正样本，预测错误（实际为负样本，模型判断为正样本）<br><code>FN:</code>假负例，预测为负样本，预测错误（实际为正样本，模型预测为负样本）<br><strong><em>不难看出,总样本中正样本的数目为 TP+FN，负样本的数目为 FP+TN，模型认为的正样本数目为 TP+FP，模型认为的负样本数目为 TN+FN</em></strong></p>
-<h2 id="准确率、精准率、召回率"><a href="#准确率、精准率、召回率" class="headerlink" title="准确率、精准率、召回率"></a>准确率、精准率、召回率</h2><p><code>准确率（Accuracy）：</code>模型判断正确的样本数占总样本数的比例</p>
-<p>$$ACC =\frac{TP+TN}{TP+TN+FP+FN}$$</p>
-<p><code>精准率\查准率（Precision）：</code>模型认为的正样本中实际为正样本的比例<br><strong><em>精准率越高表示模型检测出的目标中大部分确实是目标，目标检测的准不准</em></strong></p>
-<p>$$Precision=\frac{TP}{TP+FP}$$</p>
-<p><code>召回率\查全率（Recall）：</code>模型判断出正确的样本数占所有正样本数目的比例<br> <strong><em>召回率越高表示能检测出的目标越多，目标检测的越全</em></strong></p>
-<p>$$Recall=\frac{TP}{TP+FN}$$</p>
-<p><strong><em>不能简单通过准确率衡量样本性能，在样本极度不平衡的情况下，准确率并不能衡量样本的性能，比如有 90%的正样本，10%的负样本，在这种情况下，只需要将所有样本预测为正样本就可以获得 90%的准确率</em></strong></p>
-<p><strong><em>所以我们需要精准率和召回率</em></strong></p>
-<p><strong><em>精准率与召回率计算的都是预测正确的正样本（所要检测的目标）所占的比例，不同的是，精准率的分母是模型认为的正样本（可能有预测错误），召回率的分母是所有样本中的正样本</em></strong></p>
-<h2 id="P-R-图、F-Score"><a href="#P-R-图、F-Score" class="headerlink" title="P-R 图、F-Score"></a>P-R 图、F-Score</h2><p><strong><em>我们希望精准率和召回率越高越好，从下面 PR 曲线可以看出这是不可能的</em></strong></p>
-<center>
-<img src="https://img2018.cnblogs.com/common/721540/202002/721540-20200229144425493-1732762469.png" width=30% height=30% />
-
-<p>Figure 1. P-R 图</p>
-</center>
-
-<p><strong><em>我们为模型设置一个阙值，大于阙值则将数据分类为正样本，小于阙值则分类为负样本，这样当有 n 个阙值，在每一个阙值下都能获取到对应的精准率和召回率（P，R）。将 n 个（P，R）按照阙值从高到底排列，并且连起来就得到了该模型的 P-R 图。</em></strong><br><strong><em>在靠近原点的地方阙值最高，此时查准率最高，随着阙值降低，查全率（精准率）升高，精准率（查全率）降低</em></strong><br><strong><em>根据模型的用途不同，我们可以选择保证精准率还是召回率</em></strong><br><strong><em>当有多个模型时，可以选择在同一精准率（召回率）下召回率（精准率）最高的模型</em></strong><br><strong><em>大多时候，我们需要同时保证精准率和召回率，F1 分数是一个综合精准率和召回率后得到的指标，F1 分数最高的地方，就是 P-R 图中的平衡点</em></strong></p>
-<p><code>F1 Score:</code>精准率和召回率的调和平均数<br>$$F1 Score=\frac{2}{\frac{1}{Recall}+\frac{1}{Precision}}=\frac{2\times Recall\times Precision}{Recall+Precision}$$<br><strong><em>当精准率=召回率时，即平衡点，F1 分数最高</em></strong></p>
-<p><strong><em>很明显，上面的公式用来计算某一个类的 F1 分数，对于多分类任务，我们需要考虑各个类的 F1 分数，于是产生了两种策略：Micro-F1、Macro-F1</em></strong></p>
-<p><code>Micro-F1：</code>将所有类别的 TP、TN、FP、FN 加在一起，构成新的 TP、TN、FP、FN，计算 Micro-Precision 和 Micro-Recall 得到 Micro-F1<br><code>Macro-F1：</code>单独计算每个类别的 F1，求平均数<br><strong><em>Macro-F1 比 Micro-F1 更加常用</em></strong></p>
-<h2 id="AP、mAP"><a href="#AP、mAP" class="headerlink" title="AP、mAP"></a>AP、mAP</h2><p><code>AP（Average Percision）：</code>召回率从 0 到 1 对应的精确率的平均值<br><strong><em>例如，Recall=0.1 时，Precision=y1；Recall=0.2 时，Precision=y2；…… ；Recall=1.0 时，Precision=yn，则</em></strong><br>$$AP=\frac{1}{n}\sum^n_{i=0}{y_i}$$<br><strong><em>以上各点可以连起来构成 P-R 曲线，则利用以下公式计算 AP</em></strong><br>$$AP=\int^1_0{P(R)}{dR}$$<br><strong><em>公式$\frac{1}{b-a}\int^b_a{f(x)}{dx}$可以用来计算 f(x)在[a,b]内的平均值</em></strong></p>
-<p><strong><em>实际的 P-R 曲线时波动的，并不像上面展示的那样平滑，在实际情况下会对 P-R 曲线进行处理来计算 AP，不同的数据集，不同的比赛有不同的调整策略，这里不详细讲了</em></strong></p>
-<p><strong><em>像 F1 分数一样，AP 适应于二分类，当有多个类时，需要考虑各个类的 AP，于是有 mAP</em></strong></p>
-<p><code>mAP（mean average precision）：</code>各个类 AP 的平均值<br>$$mAP=\frac{1}{n}\sum^n_{i=0}{AP_i}$$</p>
-<p><strong><em>在实际应用 map 时，经常看到mAP@.5和mAP@.5:.95，mAP@.5表时在 IoU 的阙值为 0.5，mAP@.5:.95 表示 IoU 的阙值为 0.5-0.95，每 0.05 计算一次 mAP，然后取平均值</em></strong><br><strong><em>需要注意的是 mAP（mean average precision）不同于 MAP（macro average precision），前者用于衡量目标检测模型，后者用于衡量分类模型</em></strong><br><code>MAP（macro average precision）：</code>各个类精准率的平均值<br>$$MAP=\frac{1}{S}\sum^S_{i=0}{P_i}$$</p>
-<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/littlehaes/article/details/83278256">FP,FN,TP,TN 与精确率(Precision),召回率(Recall),准确率(Accuracy)</a><br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/laozhanghahaha/p/12383363.html">机器学习–PR 曲线， ROC 曲线</a><br><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/23096098?sort=created">如何理解与应用调和平均数？</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/fengdu78/article/details/107739416?spm=1001.2101.3001.6650.13&utm_medium=distribute.pc_relevant.none-task-blog-2~default~OPENSEARCH~default-13.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~OPENSEARCH~default-13.nonecase">【评价指标】详解 F1-score 与多分类 F1</a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/60834912">白话 mAP</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_41012399/article/details/119106696?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1.opensearchhbase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1.opensearchhbase">ap 和 map 的计算，mAP@.5 mAP@.5:.95 的含义</a></p>
-
+          <p>在机器学习中，我们通常会搭建多个不同模型，然后选出最优的模型，本文对机器学习中常用来衡量模型性能的各种指标进行总结</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/12/21/%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -361,8 +367,17 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-21 11:41:54" itemprop="dateModified" datetime="2021-12-21T11:41:54+08:00">2021-12-21</time>
+                <time title="修改时间：2021-12-21 19:27:21" itemprop="dateModified" datetime="2021-12-21T19:27:21+08:00">2021-12-21</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/blog/" itemprop="url" rel="index"><span itemprop="name">blog</span></a>
+                </span>
+            </span>
 
           
 
@@ -375,10 +390,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><p><code>Ctrl + Shift + [</code> 标题(uplevel)<br><code>Ctrl + Shift + ]</code> 标题(downlevel)<br><code>Ctrl + b</code> 加粗<br><code>Ctrl + m</code> 数学环境<br><code>``` ```</code> 代码块<br><code>```python```</code> 代码高亮<br><code>``</code> 字体高亮<br><code>Ctrl + i</code> 斜体<br><code>Ctrl + k v</code> 预览</p>
-<h2 id="数学符号和公式"><a href="#数学符号和公式" class="headerlink" title="数学符号和公式"></a>数学符号和公式</h2><p><code>x^2_i</code> $x^2_i$<br><code>\frac&#123;1&#125;&#123;2&#125; </code> $\frac{1}{2}$<br><code>\times</code> $\times$<br><code>\div</code> $\div$<br><code>\int^1_0&#123;x&#125;&#123;dx&#125;</code> $\int^1_0{x}{dx}$<br><code>\sum^0_&#123;i=0&#125;</code> $\sum^0_{i=0}$<br><code>\infin</code> $\infin$</p>
-<h2 id="超链接和脚注"><a href="#超链接和脚注" class="headerlink" title="超链接和脚注"></a>超链接和脚注</h2><h2 id="引用图片"><a href="#引用图片" class="headerlink" title="引用图片"></a>引用图片</h2><h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/tocy/p/markdown-footnote_link.html">Markdown 链接及脚注</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/u013414502/article/details/79204227">MarkDown 里显示图片的方式可以引入 HTML 方法</a><br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/e74eb43960a1">Markdown 数学公式语法</a></p>
-
+          <p>vsCode 对 markdown 的支持有限，markdown-all-in-one 插件为在 vsCode 中编写 md 文件带来了强大的生产力，本文对 markdown-all-in-one 插件常用的功能进行总结</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/12/20/markdown-all-in-one%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -420,10 +440,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-12-20 17:26:09 / 修改时间：19:15:01" itemprop="dateCreated datePublished" datetime="2021-12-20T17:26:09+08:00">2021-12-20</time>
+              <time title="创建时间：2021-12-20 17:26:09" itemprop="dateCreated datePublished" datetime="2021-12-20T17:26:09+08:00">2021-12-20</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-21 19:20:10" itemprop="dateModified" datetime="2021-12-21T19:20:10+08:00">2021-12-21</time>
+              </span>
 
           
 
@@ -436,8 +462,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><p><code>Ctrl + ~</code> 在 vsCode 中打开终端<br><code>Ctrl + Shift + c</code> 打开系统终端<br><code>F1 / Ctrl + Shift + p</code> 打开命令行工具<br><code>Ctrl + K Ctrl + T</code> 预览主题<br><code>Ctrl + Enter</code> 向下插入一行<br><code>Ctrl + Shift + Enter</code> 向上插入一行<br><code>Alt + Shift + f</code> 格式化</p>
-
+          <p>IDE 集成的各种功能以及开箱即用的特性为 APP 的开发带来了巨大的方便，但有时我们用不到这么多的功能，也不想忍受 IDE 的笨重，VsCode 是一款轻量级的编辑器，在带来丰富功能的同时又不失便捷性，本文主要对 vsCode 中常用的各种操作进行总结</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/12/20/vscode%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -762,7 +795,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
   </nav>
