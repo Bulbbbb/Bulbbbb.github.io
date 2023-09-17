@@ -1,0 +1,35 @@
+{
+  "command-palette:open": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
+  ],
+  "app:open-help": [],
+  "insert-template": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
+  ],
+  "workspace:edit-file-title": [],
+  "obsidian-min3ditorhotkeys-plugin:editor-ih-new-line-after": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "obsidian-min3ditorhotkeys-plugin:editor-ih-duplicate-line": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-excalidraw-plugin:save": [],
+  "editor:open-link-in-new-split": []
+}

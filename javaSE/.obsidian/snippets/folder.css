@@ -1,0 +1,89 @@
+/* vault name */
+.nav-folder.mod-root>.nav-folder-title {
+    font-size: var(--font-size-vault-name);
+    font-family: "手札体-简", "Lucida Handwriting", "Segoe UI Emoji" !important;
+    font-weight: bolder;
+}
+
+.nav-folder.mod-root>.nav-folder-title:hover {
+    font-size: var(--font-size-vault-name);
+    font-family: "手札体-简", "Lucida Handwriting", "Segoe UI Emoji" !important;
+    font-weight: bolder;
+
+}
+
+/* 文件图标 */
+body:not(.remove-file-icons) .nav-file-title .nav-file-title-content::before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    width: 0.9rem;
+    opacity: 0.9;
+    top: 0.15rem;
+    height: 0.9rem;
+    margin-right: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: var(--text-accent);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill=""><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8 16h8v2H8zm0-4h8v2H8zm6-10H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>');
+
+    /* left: -3px;
+    overflow: visible; */
+}
+
+.nav-file-title-content {
+    /* padding-left: 0px; */
+    /* margin-left: 13px !important;
+    padding-left: 0px !important; */
+}
+
+/* 文件夹图标 */
+body:not(.default-icons):not(.remove-arrow) .nav-folder-collapse-indicator::after {
+    position: absolute;
+    content: "↓";
+    /* top: 6px; */
+    font-size: 0.9em;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: var(--text-accent);
+    transition: transform 10ms linear 0s;
+}
+
+body:not(.default-icons) .nav-folder-collapse-indicator svg {
+    display: none;
+    color: var(--text-accent);
+    height: 7px;
+    width: 7px;
+}
+
+
+.nav-file-title {
+    /* margin-left: 0px !important; */
+    padding-left: 5px !important;
+    /* flex: 0; */
+}
+
+
+.nav-folder-title {
+    /* padding-left: 10px; */
+    /* margin-left: -10px; */
+    font-family: var(--font-family-folder-file-title);
+    cursor: pointer;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    border-radius: 0;
+    align-items: baseline;
+    flex-direction: row;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+/* 未打开文件旋转90度 */
+body:not(.default-icons) .nav-folder.is-collapsed .nav-folder-collapse-indicator::after {
+    transform: rotate(-90deg);
+    /* opacity: 0.55; */
+}

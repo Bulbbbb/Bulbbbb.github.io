@@ -1,0 +1,102 @@
+{
+  "statusBarOrder": [],
+  "ribbonBarOrder": [],
+  "fileExplorerOrder": {
+    "/": [
+      "Java概述",
+      "Java基础",
+      "类和对象",
+      "字符串",
+      "集合",
+      "枚举",
+      "泛型",
+      "注解",
+      "函数式编程",
+      "反射",
+      "IO",
+      "JDBC",
+      "并发编程",
+      "网络编程",
+      "异常处理",
+      "常用类",
+      "assets",
+      "Excalidraw",
+      "templates"
+    ],
+    "Java基础": [
+      "Java基础/数据类型",
+      "Java基础/变量、常量、直接量和标识符.md",
+      "Java基础/运算符.md",
+      "Java基础/表达式.md",
+      "Java基础/语句.md",
+      "Java基础/函数.md",
+      "Java基础/注释.md"
+    ],
+    "集合": [
+      "集合/集合.md",
+      "集合/Collection",
+      "集合/Map",
+      "集合/Iterable"
+    ],
+    "并发编程/线程同步": [
+      "并发编程/线程同步/线程同步.md",
+      "并发编程/线程同步/synchronized.md",
+      "并发编程/线程同步/原子变量和CAS.md"
+    ],
+    "并发编程/线程同步/显式锁": [
+      "并发编程/线程同步/显式锁/显式锁.md",
+      "并发编程/线程同步/显式锁/CLH锁.md",
+      "并发编程/线程同步/显式锁/AQS.md",
+      "并发编程/线程同步/显式锁/Lock、ReentrantLock.md"
+    ],
+    "类和对象/接口": [
+      "类和对象/接口/接口.md",
+      "类和对象/接口/接口中的方法.md",
+      "类和对象/接口/接口中的字段.md",
+      "类和对象/接口/接口和抽象类.md"
+    ],
+    "并发编程": [
+      "并发编程/并发编程.md",
+      "并发编程/创建线程.md",
+      "并发编程/线程的生命周期.md",
+      "并发编程/线程的状态.md",
+      "并发编程/线程互斥",
+      "并发编程/线程协作（同步）",
+      "并发编程/死锁.md"
+    ],
+    "集合/Collection/List": [
+      "集合/Collection/List/List接口.md",
+      "集合/Collection/List/ArrayList.md",
+      "集合/Collection/List/LinkedLIst.md",
+      "集合/Collection/List/List.md"
+    ],
+    "IO": [
+      "IO/File.md",
+      "IO/IO.md",
+      "IO/BIO",
+      "IO/NIO"
+    ],
+    "JDBC": [
+      "JDBC/JDBCUtils.md",
+      "JDBC/SQL语句的执行.md",
+      "JDBC/结果集.md",
+      "JDBC/批处理.md",
+      "JDBC/事务.md",
+      "JDBC/数据类型处理.md",
+      "JDBC/JDBC.md"
+    ],
+    "泛型": [
+      "泛型/泛型.md",
+      "泛型/泛型方法.md",
+      "泛型/泛型接口与泛型类.md",
+      "泛型/类型通配符.md",
+      "泛型/类型限定.md",
+      "泛型/类型擦除.md",
+      "泛型/新建文本文档.txt"
+    ]
+  },
+  "actionBarOrder": {},
+  "autoHide": false,
+  "autoHideDelay": 2000,
+  "dragDelay": 200
+}

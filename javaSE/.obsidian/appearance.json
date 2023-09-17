@@ -1,0 +1,19 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "image",
+    "table",
+    "folder",
+    "code",
+    "head",
+    "global",
+    "quota"
+  ],
+  "theme": "system",
+  "baseFontSizeAction": false,
+  "translucency": false,
+  "baseFontSize": 14,
+  "interfaceFontFamily": "JetBrains Mono,微软雅黑",
+  "textFontFamily": "JetBrains Mono,微软雅黑",
+  "monospaceFontFamily": "JetBrains Mono,微软雅黑"
+}

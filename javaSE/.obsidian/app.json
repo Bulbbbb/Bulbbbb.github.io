@@ -1,0 +1,17 @@
+{
+  "showFrontmatter": false,
+  "strictLineBreaks": false,
+  "trashOption": "local",
+  "attachmentFolderPath": "assets",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "vimMode": false
+}

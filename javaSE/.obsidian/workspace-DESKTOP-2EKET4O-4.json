@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "051a59ec6694dd3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a4f14f8acf2a646",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eda35be764c71ba0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java基础/数据类型/引用数据类型/数组/数组.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69b038f78676ed5a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8eff728dc5c558f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "22601d7687a9787d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2c3fc3fef60d68d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "custom"
+              }
+            }
+          },
+          {
+            "id": "8e1fa0a34d7163a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java基础/数据类型/引用数据类型/数组/数组.md"
+              }
+            }
+          },
+          {
+            "id": "9c56a4605a03dae8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dddc13e89ba87383",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 313.5
+  },
+  "right": {
+    "id": "7f0950faafffa702",
+    "type": "split",
+    "children": [
+      {
+        "id": "d260721c9f4fe099",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4ae144257a6ea8a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java基础/数据类型/引用数据类型/数组/数组.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7016f3d00c7005a0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Java基础/数据类型/引用数据类型/数组/数组.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c96d4682b8b542e7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6c02f7cc9a0cd8dd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian42-brat:BRAT": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "69b038f78676ed5a",
+  "lastOpenFiles": [
+    "assets/Pasted image 20230908135540.png",
+    "assets/Pasted image 20230908140009.png",
+    "IO/网络IO/IO多路复用.md",
+    "assets/Pasted image 20230826144624.png",
+    "IO/网络IO/AIO.md",
+    "assets/Pasted image 20230826141026.png",
+    "assets/Pasted image 20230826135605.png",
+    "assets/Pasted image 20230826121716.png",
+    "assets/Pasted image 20230826123402.png",
+    "assets/Pasted image 20230826121555.png",
+    "IO/网络IO/Non Blocking IO.md",
+    "IO/网络IO/BIO.md",
+    "IO/网络IO",
+    "IO/NIO/IO总览.md",
+    "assets/Pasted image 20230823135953.png",
+    "assets/Pasted image 20230823105033.png",
+    "并发编程/线程互斥/锁升级.md",
+    "并发编程/ThreadLocal.md",
+    "Java概述/Java概述.md",
+    "assets/Pasted image 20230315194728.png",
+    "字符串/字符串.md",
+    "类和对象/类和对象.md",
+    "Java基础/数据类型/数据类型.md",
+    "并发编程/线程协作（同步）/显式条件/显式条件.md",
+    "并发编程/线程互斥/显式锁/Lock、ReentrantLock/Lock、ReentrantLock.md",
+    "并发编程/线程互斥/显式锁/显式锁.md",
+    "并发编程/线程协作（同步）/wait、notify.md",
+    "并发编程/线程的状态.md",
+    "并发编程/死锁.md",
+    "并发编程/线程协作（同步）/线程协作（同步）.md",
+    "常用类/TimeUtil.md",
+    "类和对象/接口/接口.md",
+    "并发编程/线程互斥/volatile.md",
+    "并发编程/线程互斥/synchronized.md",
+    "并发编程/线程互斥/显式锁/Lock、ReentrantLock/实现原理.md",
+    "并发编程/线程互斥/原子类和CAS.md",
+    "并发编程/线程互斥/线程互斥.md",
+    "JDBC",
+    "IO/NIO/Selector",
+    "IO/NIO/Buffer",
+    "IO/NIO/Channel",
+    "IO/BIO/过滤流",
+    "IO/BIO/文件流",
+    "IO/BIO",
+    "未命名",
+    "类和对象/接口/常见接口",
+    "未命名.canvas"
+  ]
+}

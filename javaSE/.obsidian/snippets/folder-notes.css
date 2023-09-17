@@ -1,0 +1,6 @@
+/* 点击文件夹区域后打开folder note */
+.fn-whitespace-stop-collapsing .nav-folder-title-content {
+    flex-grow: 0;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}

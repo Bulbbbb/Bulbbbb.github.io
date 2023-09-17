@@ -1,0 +1,8 @@
+/* 表格居中 */
+.markdown-rendered table {
+    max-width: min(100%, 800px) !important;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: table-cell; */
+    outline: 0px solid var(--text-accent);
+}

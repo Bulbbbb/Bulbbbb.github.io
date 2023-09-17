@@ -1,0 +1,32 @@
+/*image-captions格式*/
+.image-captions-figure,
+block-language-puml-svg {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+    background-color: #fff !important;
+    color: #7c7c78;
+}
+
+/* 预览模式 */
+.markdown-preview-view img,
+.markdown-preview-view video {
+    display: block;
+    /* width: 150px;
+    height: 100px; */
+    margin: 0 auto;
+    /* background-color: #fff; */
+}
+
+/* 编辑模式 */
+.markdown-source-view img,
+.markdown-source-view video {
+    display: block;
+    /* width: 150px;
+    height: 100px; */
+    margin: 0 auto;
+    /* background-color: #fff; */
+}
+

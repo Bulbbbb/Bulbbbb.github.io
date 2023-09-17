@@ -1,0 +1,11 @@
+/* 更改quote背景色 */
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+    /* 编辑模式 */
+    background-color: #F1F1EF;
+}
+
+.markdown-rendered blockquote {
+    /* 预览模式 */
+    background-color: #F1F1EF;
+}
